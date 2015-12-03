@@ -1,11 +1,11 @@
 /**
- * This is a sample configuration meant to get users and up running on a local 
- * machine.  The configuration will not support multi-process on a single 
- * server or multi-server/elastic environments.  For more detailed information 
+ * This is a sample configuration meant to get users and up running on a local
+ * machine.  The configuration will not support multi-process on a single
+ * server or multi-server/elastic environments.  For more detailed information
  * on the options provided please refer to the /include/config.js file.
- * 
- * The file can be renamed to "config.js" in the same directory as this file 
- * and it will be used as the configuration when PencilBlue is started.  If 
+ *
+ * The file can be renamed to "config.js" in the same directory as this file
+ * and it will be used as the configuration when PencilBlue is started.  If
  * this file is used then there is no need to create a "config.json"
  */
 
@@ -14,7 +14,7 @@ module.exports = {
     "siteRoot": "http://127.0.0.1:8080",
     "sitePort": 8080,
     "logging": {
-        "level": "info"
+        "level": "debug"
     },
     "db": {
         "type":"mongo",
